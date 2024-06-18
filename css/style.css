@@ -242,3 +242,19 @@ footer {
   color: var(--light);
   background-color: var(--dark-green);
 }
+
+.shopee {
+  background-color: rgba(238, 77, 45, 0.1);
+}
+
+.shopee:hover {
+  background-color: rgba(238, 77, 45, 0.25);
+}
+
+.tokopedia {
+  background-color: rgba(3, 172, 14, 0.1);
+}
+
+.tokopedia:hover {
+  background-color: rgba(3, 172, 14, 0.25);
+}
