@@ -1,0 +1,238 @@
+:root {
+  --dark-green: #063318;
+  --green: #119948;
+  --light-green: #69ac44;
+  --green-yellow: #cddc29;
+  --yellow: #fed20b;
+  --light: #f9fcf9;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark-green);
+}
+
+.poppins-thin {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.mini-title-section {
+  color: var(--green);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.title-section {
+  color: var(--dark-green);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-dark-green {
+  color: var(--dark-green);
+}
+
+.text-green-custom {
+  color: var(--green);
+}
+
+.bg-green-custom {
+  background-color: var(--green);
+}
+
+.bg-green-subtle {
+  background-color: rgb(17, 153, 72, 0.1);
+}
+
+.bg-green-yellow {
+  background-color: var(--green-yellow);
+}
+
+.bg-light-green {
+  background-color: var(--light-green);
+}
+
+.bg-light-green-subtle {
+  background-color: rgba(105, 172, 68, 0.5);
+}
+
+.bg-yellow-subtle {
+  background-color: rgba(254, 210, 11, 0.5);
+}
+
+.text-light-green-custom {
+  color: var(--light-green);
+}
+
+.text-light-custom {
+  color: var(--light);
+}
+
+.btn-dark-green {
+  color: var(--light);
+  background-color: var(--dark-green);
+}
+
+.btn-green {
+  color: var(--light);
+  background-color: var(--green);
+}
+
+.btn-green:hover {
+  color: var(--light);
+  background-color: var(--dark-green);
+}
+
+.btn-outline-green {
+  color: var(--green);
+  background-color: var(--light);
+  border: 2px solid var(--green);
+}
+
+.btn-outline-green-transparent {
+  color: var(--green);
+  /* background-color: var(--light); */
+  border: 2px solid var(--green);
+}
+
+.btn-light {
+  color: var(--green);
+  background-color: var(--light);
+}
+
+.btn-light:hover {
+  color: var(--dark-green);
+  background-color: var(--light);
+  border-color: var(--light);
+}
+
+#heroes {
+  background: linear-gradient(to bottom, rgba(105, 172, 68, 0.1), #f9fcf9);
+}
+
+.tagline {
+  color: var(--light-green);
+  background-color: rgba(205, 220, 41, 0.5);
+  filter: drop-shadow(0 0 1rem rgba(205, 220, 41, 0.5));
+}
+
+#issue {
+  background: linear-gradient(to top, rgba(105, 172, 68, 0.1), #f9fcf9);
+}
+
+#product {
+  background-color: rgba(105, 172, 68, 0.1);
+}
+
+#youtube {
+  filter: drop-shadow(0 0 1rem rgba(105, 172, 68, 0.25));
+}
+
+footer {
+  color: var(--light);
+  background-color: var(--dark-green);
+}
