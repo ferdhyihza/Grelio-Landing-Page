@@ -193,6 +193,12 @@ body {
   border: 2px solid var(--green);
 }
 
+.btn-outline-green:hover {
+  color: var(--light);
+  background-color: var(--green);
+  border: 2px solid var(--green);
+}
+
 .btn-outline-green-transparent {
   color: var(--green);
   /* background-color: var(--light); */
