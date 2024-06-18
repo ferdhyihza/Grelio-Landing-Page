@@ -22,6 +22,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- cdn js swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
   </head>
 
   <body>
@@ -65,7 +71,7 @@
                 <a class="btn btn-outline-green rounded-pill px-4 py-2 poppins-regular ms-3" href="#tagline">Learn more</a>
               </div>
             </div>
-            <div data-aos="zoom-in" class="col-12 col-md-7 mt-4 mt-md-0">
+            <div data-aos="zoom-in" class="col-12 col-md-7 mt-4 mt-sm-0">
               <div id="carouselExampleSlidesOnly" class="carousel slide bg-white rounded-4" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -211,7 +217,106 @@
       </section>
 
       <!-- Testimonial -->
-
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h6 data-aos="zoom-in-up" class="mini-title-section text-center">TESTIMONAL GRELIO</h6>
+            <h1 data-aos="zoom-in-up" class="title-section">Apa Kata Mereka Tentang Produk Grelio 💬</h2>
+    
+          </div>
+          <div class="testimonials-content">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="img/person-1.jpg" alt="person-1">
+                    <div class="text-box">
+                      <h3 class="name">Kathrine Laurie</h3>
+                      <span class="job">Dosen</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque beatae illum expedita, iste corporis corrupti laudantium in dolore sunt.</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="img/person-2.jpg" alt="person-1">
+                    <div class="text-box">
+                      <h3 class="name">Joe Biden</h3>
+                      <span class="job">Mahasiswa</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque beatae illum expedita, iste corporis corrupti laudantium in dolore sunt.</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="img/person-1.jpg" alt="person-1">
+                    <div class="text-box">
+                      <h3 class="name">Kathrine Laurie</h3>
+                      <span class="job">Dosen</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque beatae illum expedita, iste corporis corrupti laudantium in dolore sunt.</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="img/person-2.jpg" alt="person-1">
+                    <div class="text-box">
+                      <h3 class="name">Kathrine Laurie</h3>
+                      <span class="job">Dosen</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque beatae illum expedita, iste corporis corrupti laudantium in dolore sunt.</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonials-item">
+                  <div class="info">
+                    <img src="img/person-1.jpg" alt="person-1">
+                    <div class="text-box">
+                      <h3 class="name">Kathrine Laurie</h3>
+                      <span class="job">Dosen</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque beatae illum expedita, iste corporis corrupti laudantium in dolore sunt.</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+          </div>
+    
+        </div>
+      </section>
       <!-- end Testimonial -->
     </main>
     <footer>
@@ -256,8 +361,26 @@
     </footer>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- Bootstrap JS and dependencies (Popper.js) -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.js-testimonials-slider', {
+        grabCursor: true,
+        spaceBetween: 30,
+        pagination:{
+          el: '.js-testimonials-pagination',
+          clickable: true
+        },
+        breakpoints:{
+          767:{
+            slidesPerView: 2
+          }
+        }
+      });
     </script>
   </body>
 </html>
